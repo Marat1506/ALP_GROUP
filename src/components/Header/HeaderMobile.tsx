@@ -7,7 +7,7 @@ import kapibara from '../../assets/kapibara-1.png'
 export default function HeaderMobile() {
     return (
         <Box>
-            <Box className="flex items-center justify-between">
+            <Box className="flex items-center justify-around">
                 <Box>
                     <Typography variant="h5">Kapibara
                         <span className="text-blue-400 text-1xl">Lab</span>
@@ -23,7 +23,7 @@ export default function HeaderMobile() {
             </Box>
             <Box>
                 <p className="bg-blue-600 text-white text-5xl">Точные результаты</p>
-                <p className="bg-white text-blue-600 text-5xl">Точно в срок</p>
+                <p className="bg-blue-100 text-blue-600 text-5xl">Точно в срок</p>
             </Box>
         </Box>
 
