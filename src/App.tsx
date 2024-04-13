@@ -5,16 +5,16 @@ import './App.css'
 import Header from './components/Header/Header'
 import Main from './components/Main/Main'
 import Footer from './components/Footer/Footer'
-import FooterMobile from './components/Main/Mobile/FooterMobile'
+import FooterMobile from './components/Mobile/FooterMobile'
 
 function App() {
   const isMobile = useMediaQuery('(max-width: 868px)')
 
   return (
     <Box>
-    <Main />
-    {isMobile ? <FooterMobile />: <Footer />}
-    
+      <Main />
+      {isMobile ? <FooterMobile /> : <Footer />}
+
     </Box>
   )
 }

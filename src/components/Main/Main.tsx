@@ -3,10 +3,11 @@ import styles from './Main.module.scss'
 import kapibara from '../../assets/kapibara-2.png'
 import Galery from "./Galery";
 import MainFooter from "./Main-footer";
-import MainMobile from "./Mobile/MainMobile";
 
-import {  useRef } from "react";
+
+import { useRef } from "react";
 import Header from "../Header/Header";
+import MainMobile from "../Mobile/MainMobile";
 
 
 export default function Main() {
@@ -34,11 +35,11 @@ export default function Main() {
             laboratoryRef.current.scrollIntoView({ behavior: "smooth" });
         }
     };
-    
+
 
     return (
         <Box >
-            <Header scrollToGalery={scrollToGalery} scrollToMessage={scrollToMessage} scrollToLaboratory={scrollToLaboratory}/>
+            <Header scrollToGalery={scrollToGalery} scrollToMessage={scrollToMessage} scrollToLaboratory={scrollToLaboratory} />
 
             {isMobile ? <MainMobile /> :
                 <Box>

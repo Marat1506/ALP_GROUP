@@ -1,6 +1,7 @@
 import { Box, Modal, Typography } from "@mui/material";
 
 import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
+import React from "react";
 
 
 const style = {

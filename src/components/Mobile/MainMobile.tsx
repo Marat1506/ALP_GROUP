@@ -1,9 +1,9 @@
 import { Box, Button } from "@mui/material";
 import styles from './MainMobile.module.scss'
-import kapibara from '../../../assets/kapibara-2.png'
+import kapibara from '../../assets/kapibara-2.png'
 import { useRef } from "react";
 import GaleryMobile from "./GaleryMobile";
-import MainFooter from "../Main-footer";
+import MainFooter from "../Main/Main-footer";
 
 export default function MainMobile() {
 

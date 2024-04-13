@@ -1,6 +1,7 @@
 import { Box, Modal, Typography } from "@mui/material";
 
 import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
+import { ReactNode } from "react";
 
 
 const style = {
@@ -21,6 +22,7 @@ const style = {
     boxShadow: 24,
     p: 4,
 };
+
 export default function ModalForm({ open, setOpen }) {
 
     const handleClose = () => setOpen(false);

@@ -1,4 +1,4 @@
-import { PayloadAction, createSlice } from "@reduxjs/toolkit";
+import { createSlice } from "@reduxjs/toolkit";
 
 interface Kapibara {
     activeButton: string,
@@ -13,7 +13,7 @@ const initialState: Kapibara = {
 
 
 }
-export const filmSlice = createSlice({
+export const KapibaraSlice = createSlice({
     name: 'kapibara',
     initialState,
     reducers: {
@@ -32,5 +32,5 @@ export const filmSlice = createSlice({
     }
 })
 
-export const { changeActiveButton, changeScrollGalery } = filmSlice.actions
-export default filmSlice.reducer
+export const { changeActiveButton, changeScrollGalery } = KapibaraSlice.actions
+export default KapibaraSlice.reducer
