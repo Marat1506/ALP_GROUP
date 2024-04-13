@@ -1,18 +1,21 @@
 .bg{
     background-color: #4F58C9;
     width: 100%;
-    height: 10dvh;
+    height: 15dvh;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding-left: 10rem;
     padding-right: 10rem;
     margin-top: 5dvh;
 }
+
 .text {
     color: white;
     text-align: center;
 }
+
 @media (max-width: 900px) {
     .bg{
         padding-left: 1rem;
